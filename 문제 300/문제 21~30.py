@@ -21,3 +21,31 @@ print(string[ : : -1]) # 뒤에서부터 시작
 phone_number = "010-1111-2222"
 phone_number1 = phone_number.replace("-", " ")
 print(phone_number1)
+
+# 문제 26
+phone_number = "010-1111-2222"
+phone_number1 = phone_number.replace("-","")
+print(phone_number1)
+
+# 문제 27
+url = "http://sharebook.kr"
+url_split = url.split('-')
+print(url_split[-1])
+
+# 문제 28
+    # 오류 발생
+lang = 'python'
+lang[0]
+print(lang)
+
+# 문제 29
+string = 'abcdfe2a345a32a'
+string = string.replace('a','A')
+print(string)
+
+# 문제 30
+    # abcd 가 그대로 출력됨
+string = 'abcd'
+string.replace('b','B')
+print(string)
+
