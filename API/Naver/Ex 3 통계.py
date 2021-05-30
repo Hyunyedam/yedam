@@ -32,7 +32,7 @@ if(rescode==200):
 else:
     print("Error Code:" + rescode)
 
-검색결과 = response_body('utf-8')
+검색결과 = response_body.decode('utf-8')
 json결과 = json.loads(검색결과)
 
 for i in json결과['results']:
