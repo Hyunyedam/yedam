@@ -27,4 +27,4 @@ print("naver","kakao","sk","samsung", sep='/')
 print("first",end='');print("second",end='')
 
 # 문제 10
-print("\n", 5%3)
+print("\n" ,5/3)

@@ -10,7 +10,7 @@ print( 총평가금액 )
 PER = 15.79
 
 # 문제 13
-s = "hello!`"
+s = "hello!"
 t = "python"
 print(s, t)
 
