@@ -45,3 +45,4 @@ print(len(cook))
 nums = [1, 2, 3, 4, 5]
 평균 = sum(nums) / len(nums)
 print(평균)
+

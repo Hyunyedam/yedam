@@ -12,7 +12,7 @@ movie_rank = ("닥터 스트레인지", "스플릿", "럭키")
 # 문제 73     # 숫자 1이 저장된 튜플 생성하기
 my_tuple = (1)
 print(type(my_tuple)) # int 정수  # 튜플이 아니다
-my_tuple - (1, ) # ( , ) 추가
+my_tuple = (1, ) # ( , ) 추가
 print(type(my_tuple)) # tuple  # 튜플로 생성
 
 # 문제 74     # 오류가 발생하는 원인 찾기
